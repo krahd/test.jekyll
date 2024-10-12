@@ -23,9 +23,9 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Just a simple test.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://krahd.github.io/test.jekyll/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: krahd
+github_username:  krahd
 
 # Build settings
 theme: minima
