@@ -18,10 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Testing Static Sites
-email: your-email@example.com
+author: tom
+
+description: Just a simple test.
+email: tomas@laurenzo.net
 description: >- # this means to ignore newlines until "baseurl:"
   Just a simple test.
 baseurl: "/" # the subpath of your site, e.g. /blog
+
+
 url: "https://krahd.github.io/test.jekyll/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: krahd
 github_username:  krahd
@@ -32,8 +37,13 @@ plugins:
   - jekyll-feed
 
 # configuring pages
-- name: Configure GitHub Pages
-  uses: actions/configure-pages@v5.0.0
+# - name: Configure GitHub Pages
+
+#defaults:
+#  -
+#    scope:
+#  key: value
+#  uses: actions/configure-pages@v5.0.0
             
 
 # Exclude from processing.

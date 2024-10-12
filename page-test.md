@@ -1,6 +1,9 @@
+---
 layout: page
 title: "Adding a first page"
-permalink: /page-test
+permalink: /page-test/
+---
+
 
 # A first page
 
