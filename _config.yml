@@ -22,7 +22,7 @@ title: Testing Static Sites
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Just a simple test.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -31,6 +31,11 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+
+# configuring pages
+- name: Configure GitHub Pages
+  uses: actions/configure-pages@v5.0.0
+            
 
 # Exclude from processing.
 # The following items will not be processed, by default.
