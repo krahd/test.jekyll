@@ -35,6 +35,7 @@ github_username:  krahd
 theme: lanyon
 plugins:
   - jekyll-feed
+  - [jekyll-youtube]
 
 # configuring pages
 # - name: Configure GitHub Pages
