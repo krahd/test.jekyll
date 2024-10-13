@@ -32,7 +32,7 @@ twitter_username: krahd
 github_username:  krahd
 
 # Build settings
-theme: minima
+theme: lanyon
 plugins:
   - jekyll-feed
 
