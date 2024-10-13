@@ -31,11 +31,13 @@ url: "https://krahd.github.io/test.jekyll/" # the base hostname & protocol for y
 twitter_username: krahd
 github_username:  krahd
 
-# Build settings
-REMOTE_theme: lanyon
+# Build  settings
+remote_theme: poole/lanyon
 plugins:
   - jekyll-feed
   - jekyll-youtube
+  - jekyll-remote-theme 
+  - jekyll-paginate
 
 # configuring pages
 # - name: Configure GitHub Pages
